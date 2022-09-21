@@ -138,3 +138,50 @@ header{
     display: inline-block;
 }
 
+footer{
+    background-color: black;
+}
+
+.boolean{
+    color: white;
+    padding: 1rem 0;
+}
+
+.boolean p{
+    font-size: 15px;
+}
+
+.foot-list{
+    display: flex;
+}
+
+.foot-link{
+    text-decoration: none;
+    color: white;
+}
+
+.foot-list li{
+    list-style: none;
+    font-size: 10px;
+    padding-right: 1em;
+}
+
+.foot-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    color: white;
+    font-size: 10px;
+}
+
+.social-link{
+    text-decoration: none;
+    color: white;
+    padding: 0.1rem;
+    font-size: 15px;
+}
