@@ -125,6 +125,10 @@ header{
     padding: 0 0.4em;
 }
 
+.item:hover{
+    cursor: pointer;
+}
+
 .item:hover .cuore {
     color: red;
 }
