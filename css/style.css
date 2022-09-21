@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: orangered;
+    width: 100%; 
+}
+
+.position{
+    
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.nav-menu{
+    height: 4em; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    margin: 0 0.3em;
+}
+
+.menu-list li{
+    list-style: none;
+}
+
+.logo{
+    width: 10%;
+}
+
+.big-container{
+    max-width: 1400px;
+    height: 3000px;
+    background-color: gold;
+    margin:auto;
+/* } TO CHANGE - JUST TO TRY POSITION FIXED FOR NAV BAR */
+
