@@ -16,7 +16,7 @@ header{
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     color: white;
 }
@@ -47,7 +47,7 @@ header{
 }
 
 .main-container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin:auto;
 }
 
@@ -55,11 +55,13 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    row-gap: 3rem;
+    column-gap: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .item{
-    width: calc(33.33% - 2rem);
-    padding: 0 1rem 2rem;
+    width: calc(33.33% - 1rem);
     position: relative;
 }
 
@@ -167,7 +169,7 @@ footer{
 }
 
 .foot-container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
